@@ -67,7 +67,7 @@ def note_editor_screen():
     col1, col2, col3 = st.columns([1,1,3])
 
     with col1:
-        if st.button("Sava"):
+        if st.button("Save"):
             if not title:
                 st.warning("Title cannot be empty.")
                 return
